@@ -1,7 +1,7 @@
 {
     "name": "rds-instance-health",
     "description": "AWS Lambda Function",
-    "version": "0.1.24",
+    "version": "0.0.2",
     "dependencies": {
         "aws-xray-sdk-core": "^3.3.6",
         "pg": "^8.7.3"
@@ -15,17 +15,17 @@
         "destroy": "ts-node scripts/destroy"
     },
     "devDependencies": {
-        "@iac-factory/eslint-settings": "^1.6.28",
         "@aws-sdk/client-lambda": "^3.100.0",
         "@aws-sdk/types": "^3.78.0",
         "@iac-factory/ecma": "^0.2.11",
+        "@iac-factory/eslint-settings": "^1.6.28",
         "@types/aws-lambda": "^8.10.98",
         "@types/node": "^17.0.40",
         "@types/pg": "^8.6.5",
         "aws-lambda": "^1.0.7",
         "aws-sdk": "^2.1152.0",
-        "typescript": "^4.7.3",
+        "ci": "./ci",
         "ts-node": "^10.8.1",
-        "ci": "./ci"
+        "typescript": "^4.7.3"
     }
 }
