@@ -11,8 +11,7 @@
         "start": "ts-node $(dirname $(npm root .))/build --debug",
         "clear": "rm -rf $(npm get cache)",
         "refresh": "npm run clear && npm run ci",
-        "ci": "ts-node ci",
-        "destroy": "ts-node scripts/destroy"
+        "ci": "ts-node ci"
     },
     "devDependencies": {
         "@aws-sdk/client-lambda": "^3.100.0",
